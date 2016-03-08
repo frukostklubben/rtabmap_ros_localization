@@ -97,6 +97,8 @@
 
       <!--LOCALIZATION MODE-->
       <param name="Mem/IncrementalMemory"     type="string" value="false"/>
+      <param name="Mem/STMSize"     type="string" value="1"/>
+      <param name="Mem/InitWMWithAllNodes"     type="string" value="true"/>
       <!-- when 2D scan is set -->
       <param if="$(arg subscribe_scan)" name="RGBD/OptimizeSlam2D"          type="string" value="true"/>
       <param if="$(arg subscribe_scan)" name="RGBD/LocalLoopDetectionSpace" type="string" value="true"/>
