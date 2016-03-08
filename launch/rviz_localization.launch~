@@ -1,8 +1,8 @@
 <launch>
 <node name="rtabmap" pkg="rtabmap_ros" type="rtabmap" args="">
    <!-- LOCALIZATION MODE -->
-   <param name="Mem/IncrementalMemory" type="string" value="false">
-   <param name="rviz" type="string" value"true">
+   <param name="Mem/IncrementalMemory" type="string" value="false"/>
+   <param name="rviz" type="string" value"true"/>
    <param name="rtabmapviz" type="string" value="false"/>
 </node> 	
 </launch>
